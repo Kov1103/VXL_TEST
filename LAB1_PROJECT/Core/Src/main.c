@@ -106,7 +106,7 @@ int main(void)
 	  }
 	  if(counter == 5){
 		  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, 0);
-	  	  HAL_GPIO_WritePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_Pin, 1);
+	  	  HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, 1);
 	  	  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, 1);
 	  }
 	  counter--;
